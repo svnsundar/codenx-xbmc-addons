@@ -19,8 +19,8 @@ try:
 except:
   import storageserverdummy as StorageServer
 
-MOVIE_URL = "http://tamilgun.pro/categories/new-movies/"
-HD_MOVIE_URL = "http://tamilgun.pro/categories/hd-movies/"
+MOVIE_URL = "http://tamilgun.io/categories/new-movies-a/"
+HD_MOVIE_URL = "http://tamilgun.io/categories/hd-movies/"
 net = Net()
 addonId = 'plugin.video.oliyumoliyum'
 addon = Addon( addonId, sys.argv )
